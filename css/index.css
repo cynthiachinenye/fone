@@ -104,13 +104,26 @@ span{
     border:none;
     background: #eee;
     text-align:center;
-    padding-top:50px;
+    padding-top:80px;
+    line-height:40px;
 }
 .mid{
     background:#f7c08a;
 }
+.icons p{
+    font-size:18px;
+}
 .fa-soild{
-
+    font-weight:900;
+    
+}
+.footer{
+    background:#333;
+    color:#fff;
+    height:100px;
+    width:100%;
+    padding-top:35px;
+    text-align:center;
 }
 
 
