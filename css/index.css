@@ -42,7 +42,11 @@ li{
 }
 .nav-bar-list{
     width:550px;
-    height:40px;
+    height:60px;
+}
+.nav-bar-list :hover{
+    background: #444;
+    
 }
 .show-case{
     background:url('../img/showcase.jpg')no-repeat center center/cover;
