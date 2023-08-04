@@ -94,6 +94,25 @@ span{
     margin-top:20px;
     border:none;
 }
+.three-icons{
+    display:flex;
+    text-align:center;
+}
+.icons{
+    height:300px;
+    width:500px;
+    border:none;
+    background: #eee;
+    text-align:center;
+    padding-top:50px;
+}
+.mid{
+    background:#f7c08a;
+}
+.fa-soild{
+
+}
+
 
 
 
