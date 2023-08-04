@@ -56,7 +56,44 @@ li{
 .show-case h1{
     font-size:80px;
 }
-.show-case span{
+span{
     color:#f7c08a;
 }
+.show-case .btn{
+    height:50px;
+    width:150px;
+    font-size:18px;
+    background:#444;
+    border:none;
+    color:#fff;
+}
+.btn:hover{
+    background:#f7c08a;
+    cursor:pointer
+}
+.showcase-img{
+    display:flex;
+}
+.showcase-img-cont{
+    background:#333;
+    text-align:center;
+    padding-top:80px;
+    color:#fff;
+}
+.showcase-img-cont h2{
+    font-size:25px;
+}
+.showcase-img-cont p{
+    padding-top:20px;
+    font-size:18px;
+}
+.showcase-img-cont .btn{
+    height:50px;
+    width:120px;
+    font-size:18px;
+    margin-top:20px;
+    border:none;
+}
+
+
 
