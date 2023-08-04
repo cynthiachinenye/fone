@@ -44,7 +44,7 @@ li{
     width:550px;
     height:60px;
 }
-.nav-bar-list :hover{
+ul :hover{
     background: #444;
     
 }
