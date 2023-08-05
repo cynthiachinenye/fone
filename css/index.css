@@ -129,7 +129,16 @@ span{
     padding-top:35px;
     text-align:center;
 }
-
+.show-case2{
+    display:flex;
+    padding:30px;
+    width:100%;
+    
+}
+.div-abt img{
+    border:none;
+    border-radius:200px
+}
 
 
 
