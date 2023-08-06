@@ -137,7 +137,9 @@ span{
 }
 .div-abt img{
     border:none;
-    border-radius:200px
+    border: radius 200px;
+
+
 }
 
 
