@@ -12,6 +12,7 @@
 a{
     color:#fff;
     text-decoration: none;
+    padding:20px;
     
 }
 a:hover{
@@ -31,23 +32,14 @@ a:hover{
     padding:20px;
     padding-top:20px;
 }
-.logo{
+.nav-bar .logo{
     padding-left:50px;
     font-size:12px;
 }
-li{
-   list-style:none;
-   padding:20px;
-   display:inline;
-   
-}
-.nav-bar-list{
+
+.nav-bar .nav-bar-list{
     width:550px;
     height:60px;
-}
-ul :hover{
-    background: #444;
-    
 }
 .show-case{
     background:url('../img/showcase.jpg')no-repeat center center/cover;
@@ -130,12 +122,7 @@ span{
     padding-top:35px;
     text-align:center;
 }
-#container2{
-    width:100%;
-    height:100%;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color:rgb(218, 238, 238);
-}
+
 .show-case2{
     display:flex;
     padding:20px;
@@ -262,11 +249,76 @@ form button{
     text-align:center;
     
 }
-#nav-bar2{
+
+.nav-bar label  #btn,
+.label #cancel{
+    color:#fff;
+    font-size:30px;
+    float:right;
+    text-align:right;
+    line-height:40px;
+    margin-right:40px;
+    cursor:pointer;
+    display:none;
+
+}
+#check{
     display:none;
 }
-/* @media screen  and (max-width:450px){
-    #nav-bar2{
+
+@media screen  and (max-width:1118px){
+    .nav-bar .logo{
+        left:8%;
+         
+    }
+
+@media screen  and (max-width:944px){
+        .nav-bar .logo{
+            left:20%;
+            top:30px;
+            width:130px;
+        }
+        .nav-bar a{
+            font-size:17px;
+        }
+    }
+
+    @media screen  and (max-width:860px){
+        .nav-bar #btn{
+            display:block;
+          
+        }
+        .nav-bar-list a{
+            position:fixed;
+            width:100%;
+            height:100vh;
+            background:#333;
+            top:80px;
+            left:100%;
+            text-align:center;
+            transition:all .5s;
+        }
+
+        .nav-bar a{
+            font-size:20px;
+            display:block;
+            margin:50px 0;
+            line-height:30px;
+        }
+        #check:checked ~ a{
+            left:0;
+        }
+        #check:checked #btn{
+            display: none;
+        }
+        #check:checked  #cancel{
+            display:block;
+        }
+    }   
+
+        
+    
+    /* #nav-bar2{
         height:100%;
         width:0;
         position:fixed;
@@ -296,8 +348,8 @@ form button{
         right:25px;
         font-size:36px;
         margin-left:50px;
-    } */
-    
-/* } */
+    } 
+     */
+}
 
 
